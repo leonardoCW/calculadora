@@ -39,7 +39,7 @@
 		<input type="submit" value="Calcular">
 		</p>
 	</form>
-	<span>Calculadora desenvolvida por Leonardo Santos</span>
+	<span>Calculadora desenvolvida por Leonardo</span>
 
 </body>
 </html>
