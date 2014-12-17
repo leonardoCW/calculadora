@@ -11,12 +11,12 @@
 	<form method="POST" action="calculando.php">
 		<p>
 			<label>Numero 1</label><br>
-			<input type="text" name="numero1" id="numero1">
+			<input type="text" name="numero1" id="numero1" placeholder="Digite o primeiro número">
 		</p>
 
 		<p>
 			<label>Numero 2</label><br>
-			<input type="text" name="numero2" id="numero2">
+			<input type="text" name="numero2" id="numero2" placeholder="Digite o segundo número">
 		</p>
 
 		<p>
