@@ -25,8 +25,9 @@
 					// Quando terminada a requisição
 					// Exibe o calculo feito
 						$("#numero1").val('');
+						$("#numero2").val('');
 						// Coloca a mensagem no div de mensagens
-						$("#atual").prepend("<strong>"+ numero1 + " </strong><br />");
+						$("#atual").prepend("<strong>"+ numero1 + operador + numero2 +"</strong><br />");
 			});
 		});
 	});
@@ -64,7 +65,7 @@
 
 			<p>
 				<label>Numero 2</label><br>
-				<input type="hidden" name="numero2" id="numero2" value="0">
+				<input type="text" name="numero2" id="numero2" placeholder="Digite o segundo número">
 			</p>
 
 			<p>
@@ -89,7 +90,6 @@
 		</form>
 	</div>
 
-	
 
 	<span>Calculadora desenvolvida por Leonardo</span>
 
