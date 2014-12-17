@@ -3,7 +3,7 @@
 $host = "localhost";
 $usuario = "root";
 $senha = "";
-$banco = "sistickets";
+$banco = "calculadora";
 // Realizando conexão e selecioando banco de dados
 $conn = mysql_connect($host, $usuario, $senha) or die(mysql_error());
 $db = mysql_select_db($banco, $conn) or die(mysql_error()); 
