@@ -44,7 +44,7 @@
 	function getResultado()
 	{
 	  new Ajax.Updater( 'atualiza', 'atualiza.php', {
-	    onSuccess: function() { window.setTimeout( getResultado, 1000 ); }
+	    onSuccess: function() { window.setTimeout( getResultado, 100 ); }
 	  } );
 	}
 	getResultado();
